@@ -1,0 +1,521 @@
+body{
+    background-color: #f8f8f8;
+    width:100%;
+    margin: 0 auto;
+    
+}
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+
+}
+
+
+@media(max-width:1170px){
+    .container{
+        max-width: 970px;
+
+    }
+   
+    
+}
+@media(max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+   
+ 
+}
+@media(max-width:767px){
+    .container{
+        max-width: 550px;
+    }
+   
+   
+}
+
+@media (max-width:575px){
+    .container
+   {
+        margin:0 auto;
+        width:100%;
+       padding:0 15px;
+    }
+    .block-img img{
+        width:290px;
+        height: 220px;
+     
+    }
+    .block{
+        margin-bottom: 300px;
+        padding:15px;
+    }
+    .block-right{
+        padding:15px;
+    }
+    .block-btn-big{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    }
+    .btn button{
+   
+        display: none;
+}
+    .footer-info{
+        display: none;
+    }
+    .stroika-text{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+   
+}
+
+
+
+
+
+.header_title{
+    text-align: center;
+    
+   margin-bottom: 70px;
+}
+
+
+.header_title h3 {
+    font-family: 'Cormorant Infant', serif;
+font-size: 36px;
+line-height: 36px;
+font-weight: 700;
+letter-spacing: 0.005em;
+color: #262626;
+
+}
+
+.header_title h5{
+    font-family: 'Cormorant Infant' , serif;
+    font-size: 16px;
+    line-height: 24px;
+   font-weight: 300;
+    font-style: italic;
+  
+    color: #595959; 
+    margin:-25px;
+}
+
+
+hr {
+    border: none; 
+    width: 1170px;
+    height: 1px;
+    background-color: #e6e6e6;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:0px ;
+    list-style-type: none;
+    
+   
+}
+
+.nav>li>a{
+text-decoration: none;
+text-transform: uppercase;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.005em;
+color: #262626;
+
+}
+.container-banner{
+    padding-top: 103px;
+   padding-bottom: 142px;
+     background-image:url("../maket/img maket/header-banner.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ 
+    margin: 0 auto;
+}
+
+.banner-text{
+ 
+
+ 
+    max-width: 552px;
+   max-height: 100%;
+     opacity: 0.94;
+     background-color: #ffffff;
+     display: flex;
+     flex-direction: column;
+    
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-bottom: 40px;
+     padding-top:40px;
+
+}
+
+.banner-title{
+   
+    font-family: 'Cormorant Infant', serif;
+font-size: 60px;
+line-height: 60px;
+font-weight: 700;
+letter-spacing: 0.005em;
+color: #404040;
+
+}
+.banner-paragraph{
+font-family: 'PT Sans', sans-serif;
+font-size: 18px;
+line-height: 28px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #404040;
+}
+
+.data{
+    display:flex;
+
+}
+.data-data{
+    font-size: 14px;
+line-height: 26px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #a6a6a6;
+}
+.data-icon{
+    padding-top: 18px;
+    padding-right: 10px;
+}
+.wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1170px;
+    background: #ffff;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+  
+}
+
+.wrapper-2{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 552px;
+   max-height: 100%;
+   
+}
+
+
+.info-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+
+}
+.block{
+    max-width:540px;
+    max-height:653px;
+    padding:25px;
+    margin-bottom: 25px;
+
+}
+
+
+.block-title{
+    font-family: 'Cormorant Infant',serif;
+font-size: 30px;
+line-height: 24px;
+font-weight: 600;
+font-style: italic;
+letter-spacing: 0.005em;
+color: #262626;
+}
+.block-text{
+    font-family: "PT Sans" ,serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+color: #737373;
+
+}
+.block-text-small p{
+    color: #737373;
+    font-size: 14px;
+   padding-right: 15px;
+   
+}
+.block-title-small{
+    font-family: 'Cormorant Infant' , serif;
+font-size: 24px;
+line-height: 26px;
+font-weight: 600;
+font-style: italic;
+letter-spacing: 0.005em;
+color: #262626;
+}
+
+
+
+
+
+.block-right{
+    max-width:275px;
+    max-height:350px;
+}
+
+.block-right{
+ 
+    margin-top: 25px;
+    margin-bottom: 12,5px;
+}
+
+.btn button{
+    width: 157px;
+height: 56px;
+border: 1px solid #48974c;
+
+}
+
+.block-btn-big{
+    display:flex;
+    
+    justify-content: space-between;
+  
+
+
+}
+.social_icon img{
+    padding-right: 25px;
+    
+}
+
+.social_icon {
+    padding-top: 12.5px;
+  
+}
+
+.btn-1 p{
+    font-family: 'PT Sans' , serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.005em;
+    color: #48974c;
+}
+.btn-1 span{
+    display: inline-block;
+}
+.banner-stroika{
+    background-image:url("../maket/img maket/stroika.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position:relative;
+    background-position: center;
+   
+
+}
+
+
+
+
+
+
+
+
+.stroika-text  {
+  
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    color: #262626;
+    position:absolute; 
+    bottom:0; 
+    margin-bottom:100px;
+   
+    
+     }
+     .stroika-text>div{
+         display: inline-block;
+        
+     }
+     .stroika-link{
+         padding-bottom: 32px;
+      
+     }
+
+     .stroika-text button{
+        width: 157px;
+        height: 56px;
+        background-color:  #48974c;
+    
+        position: absolute;
+        font-family: 'PT Sans';
+font-size: 14px;
+line-height: 24px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.005em;
+color: #ffffff;
+
+     }
+
+     .stroika-text h3{
+        font-family: 'PT Sans';
+        width: 212px;
+        height: 56px;
+        background-color: #ffffff;
+        text-align:left;
+        line-height: 50px;
+        padding-right: 45px;
+        
+        
+     }
+
+ 
+
+
+
+
+     .fb-banner {
+        font-family: 'Cormorant Infant' , sans-serif;
+        font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.005em;
+    color: #262626;
+    width: 300px;
+    height: 260px;
+    align-self:center;
+    padding:30px;
+    }
+    
+    .facebook{
+        max-height: 400px;
+        background:white;
+        margin:0 auto;
+        max-width:1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .BANNER{
+     
+        
+        max-width:650px;
+       
+        align-self:center;
+        text-align:center;
+        font-family: Cormorant Infant;
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 0.005em;
+        color: #262626;
+    
+    
+    }
+
+
+
+.footer{
+   
+  max-height:100%;
+  background-color: #404040;
+
+}
+
+.footer-wrapper{
+    display:flex;
+  
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:50px;
+}
+
+.footer-title{
+    font-family: 'Cormorant Infant', serif;
+font-size: 36px;
+line-height: 44px;
+font-weight: 700;
+letter-spacing: 0.005em;
+color: #ffffff;
+}
+.footer-text{
+    font-family: 'Cormorant Infant', serif;
+font-size: 16px;
+line-height: 24px;
+font-weight: 300;
+font-style: italic;
+letter-spacing: 0.005em;
+color: #ffffff;
+}
+.footer-info{
+    max-width:435px;
+}
+
+
+.footer-menu{
+   
+
+    list-style-type: none;
+    
+   
+}
+
+.footer-menu>li>a{
+text-decoration: none;
+text-transform: uppercase;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.005em;
+color: #ffffff;
+
+}
+
+.footer-social{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-social img{
+    padding-right: 25px;
+}
+.proof{
+font-family: 'PT Sans', sans-serif;
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+letter-spacing: 0.01em;
+color: #999999;
+padding-bottom:80px;
+}
+
+.icon{
+    border-radius:50% ;
+  
+   padding:0px 6px 0px 7px ;
+    background-color: #48974c;
+}
+
