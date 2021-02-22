@@ -138,7 +138,7 @@ color: #262626;
 .container-banner{
     padding-top: 103px;
    padding-bottom: 142px;
-     background-image:url("../maket/img maket/header-banner.png");
+     background-image:url("img maket/header-banner.png");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -321,7 +321,7 @@ border: 1px solid #48974c;
     display: inline-block;
 }
 .banner-stroika{
-    background-image:url("../maket/img maket/stroika.jpg");
+    background-image:url("img maket/stroika.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
